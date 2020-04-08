@@ -117,7 +117,7 @@
     
 .gui{
       background:#eef2f3;  /* fallback for old browsers */
-      height: 85vh;  
+      height: 90vh;  
       width: 100%;
       display: flex;
       flex-direction: column;
