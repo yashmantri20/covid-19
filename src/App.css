@@ -109,15 +109,15 @@
     }
 
 .avatar-img {
-      width: 150px;
-      height: 150px;
+      width: 120px;
+      height: 120px;
       /* padding-top: 5em; */
       border-radius: 80%;
     }
     
 .gui{
       background:#eef2f3;  /* fallback for old browsers */
-      height: auto;  
+      height: 100vh;  
       width: 100%;
       display: flex;
       flex-direction: column;
