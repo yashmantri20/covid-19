@@ -107,7 +107,6 @@ function Home(props) {
           </div>
 
           <div className="home-right">
-          <div>
           <h3 style={{fontFamily:'Hind',fontWeight:'600'}}>TOP 15 AFFECTED STATES</h3>
           <Grid style={{marginLeft:'40px'}}>
             <table >
@@ -135,7 +134,6 @@ function Home(props) {
                 <div className="link">
                 <text rel="noopener noreferrer">covid19india</text>
                 </div>
-          </div>
           </div> 
     </div>
   )}
