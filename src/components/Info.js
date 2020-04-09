@@ -105,7 +105,7 @@ function Pro() {
             <Tabs style={{marginLeft:"20px"}} activeTab={state.activeTab} onChange={(tabId) => setflag({ activeTab: tabId })} ripple>
             <Tab>TESTING</Tab>
             <Tab>SYMPTOMS</Tab>
-            <Tab>MEDICAL ATTENTION</Tab>
+            <Tab>MEDICAL</Tab>
             </Tabs>
            
       <Grid>
