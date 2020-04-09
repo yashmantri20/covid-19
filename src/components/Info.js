@@ -22,7 +22,7 @@ function Pro() {
 
             <p></p>
 
-            <div style={{paddingLeft:'6.7%'}}>
+            <div style={{alignSelf:"center"}}>
             <img
                 src={require('./f.png')}
                 alt="avatar"
