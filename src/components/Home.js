@@ -133,7 +133,7 @@ function Home(props) {
                 <div>
             <h5 style={{fontWeight:"600",marginLeft:"40px"}}>STAY SAFE AND STAY AT HOME</h5>
               <div className="link">
-                <text rel="noopener noreferrer">covid19india</text>
+                <text style={{marginLeft:'40px'}} rel="noopener noreferrer">covid19india</text>
               </div>
             </div>
           </div> 
