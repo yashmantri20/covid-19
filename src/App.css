@@ -150,7 +150,7 @@ h5 {
 td  {
       border: 1px solid #ddd;
       color: gray;
-      font-weight: 800;
+      font-weight: 600;
     }
 
 tr:nth-child(even){background-color: #f2f2f2;}

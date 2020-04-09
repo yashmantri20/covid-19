@@ -130,7 +130,7 @@ function Home(props) {
               </tbody>
             </table>
                 </Grid>
-                <h5 style={{marginLeft:'40px',marginTop:'40px',fontWeight:"800"}}>STAY SAFE AND STAY AT HOME</h5>
+                <h5>STAY SAFE AND STAY AT HOME</h5>
                 <div className="link">
                 <text style={{marginLeft:'40px'}} rel="noopener noreferrer">covid19india</text>
                 </div>
