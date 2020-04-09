@@ -35,8 +35,8 @@
     grid-template-columns: auto;
     width: 66%;
 
-    margin-left: 2rem;
-    margin-right: 5rem; 
+    margin-left: 1.8rem;
+    /* margin-right: 5rem;  */
   }
 
 .home-right {
