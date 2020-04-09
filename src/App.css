@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  display: flex;
+  display: grid;
 }
 
 .header{
@@ -13,11 +13,13 @@
 }
 
 .layout{
-  display: flex;
+  display: grid;
 }
 
 .Home {
   display: flex;
+  /* display: grid;
+  grid-template-columns: auto; */
   /* flex-direction: row; */
    /* justify-content: center; */
   flex-wrap: wrap;
@@ -27,8 +29,10 @@
 }
 
 .home-left {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: auto;
     width: 60%;
 
     margin-left: 1.5rem;
@@ -36,16 +40,20 @@
   }
 
 .home-right {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: auto;
     /* width: 10rem; */
     margin-right: 2.5rem;
-    margin-left: 4em;
+    margin-left: 4em; 
   }
 
 .header-mid {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: auto;
     justify-content: space-between;
   }
 
@@ -116,6 +124,8 @@
     
 .gui{
       background:#eef2f3;  /* fallback for old browsers */
+      display: grid;
+      grid-template-columns: auto;
       height: 88vh;  
       width: 100%;
       display: flex;
@@ -198,3 +208,9 @@ th {
   }  
 } */
 
+@media (max-width:500px){
+  .home{
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
