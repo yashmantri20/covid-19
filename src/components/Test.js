@@ -293,7 +293,7 @@ function Self() {
 
                 <button className="bt" type="submit">Submit</button>
 
-                <h5 style={{fontWeight:"600"}}>STAY SAFE AND STAY AT HOME</h5>
+                <h5 style={{fontWeight:"800"}}>STAY SAFE AND STAY AT HOME</h5>
                 <div className="link">
                 <text rel="noopener noreferrer">covid19india</text>
                 </div>&nbsp;
