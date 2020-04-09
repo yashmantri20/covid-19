@@ -58,16 +58,16 @@
     grid-template-columns: auto;
   }
 
+  .li{
+    background:#eef2f3; 
+    height: 100%;
+  }
+
 .Links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     
-  }
-  
-.li{
-    background:#eef2f3; 
-    height: 100%;
   }
 
 .link {
@@ -142,7 +142,7 @@
 h5 {
       margin-bottom: 0;
       color: gray;
-      font-weight: 800;
+      font-weight: 600;
       font-size: 18px;
       font-family: 'Hind';
     }
@@ -222,3 +222,27 @@ th {
   }
 }
 
+table{
+  margin-left: 0px;
+}
+
+@media only screen and (min-width:800px)
+{
+  table{
+    margin-left: 45px;
+  }
+
+  .home-right h5{
+    margin-left: 44px;
+  }
+}
+
+@media only screen and (max-width:600px)
+{
+  .gui{
+    display: flexbox;
+    flex-wrap: wrap;
+    height: 100%;
+    background:#eef2f3;
+  }
+}

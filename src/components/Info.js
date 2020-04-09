@@ -90,10 +90,12 @@ function Pro() {
               <div>
               <p style={{color:'red',fontFamily: 'Hind',fontSize:'18px',fontWeight:"600"}}>*This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning.</p>
               
-              <h5>STAY SAFE AND STAY AT HOME</h5>
-                <div className="link">
-                  <text rel="noopener noreferrer">covid19india</text>
-                </div>
+              <div>
+            <h5 style={{fontWeight:"600"}}>STAY SAFE AND STAY AT HOME</h5>
+              <div className="link">
+                <text rel="noopener noreferrer">covid19india</text>
+              </div>
+            </div>
               </div>
                </div>
   
