@@ -2,7 +2,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import guidance from './guidance';
 import Links from './Links';
 import Test from './Test';
 import Info from './Info';

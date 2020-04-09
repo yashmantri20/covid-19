@@ -1,6 +1,9 @@
 import React,{useState} from 'react'
-
+import {useHistory} from 'react-router'
 function Self() {
+
+   const history = useHistory();
+
     const [state, setflag] = useState({
         flag: 0,
         counter1:0,
@@ -170,10 +173,12 @@ function Self() {
             if(state.flag < 2)
             {
                 alert("As you have a travel history it is better to be in quarantine and if in future you have the symptoms then seek medical attention.")
+                history.push('/Home');
             }
             else
             {
                 alert("You should seek medical attention")
+                history.push('/Home');
             }
         }
         else
@@ -183,26 +188,30 @@ function Self() {
                 if(state.flag > 2)
                 {
                     alert("You should seek medical attention")
+                    history.push('/Home');
                 }
                 else
                 {
                     alert("At present there are no symptoms but if in future you have the symptoms then seek medical attention.")
+                    history.push('/Home');
                 }
             }
             else if(state.flag > 3)
             {
                 alert("You should seek medical attention")
+                history.push('/Home');
             }
             else
             {
                 alert("At present there are no symptoms but if in future you have the symptoms then seek medical attention.")
+                history.push('/Home');
             }
         }
     }
 
     return (
         <div  className="test">
-            <form onSubmit={handlesubmit}>
+            <form >
             <p style={{justifyContent:'center',marginLeft:'-6px',marginTop:"19px",color:"black",fontStyle:'bold',fontSize:'30px',fontFamily: 'Hind',fontWeight:'600'}}>TEST</p>
                 
                 <div style={{marginTop:"10px"}}>
@@ -291,7 +300,7 @@ function Self() {
                 &nbsp;
                 </div>
 
-                <button className="bt" type="submit">Submit</button>
+                <button onClick={handlesubmit} className="bt" type="submit">Submit</button>
 
                 <div>
             <h5 style={{fontWeight:"600"}}>STAY SAFE AND STAY AT HOME</h5>

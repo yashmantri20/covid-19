@@ -47,7 +47,7 @@ function Links(props) {
           https://www.who.int/emergencies/diseases/novel-coronavirus-2019
         </a>
 
-      <div className="link fadeInUp" style={{animationDelay: '0.7s'}}>
+      {/* <div className="link fadeInUp" style={{animationDelay: '0.7s'}}>
         <h3>COVID-19 GLOBAL TRACKER</h3>
         <a
           href="https://coronavirus.thebaselab.com/"
@@ -55,7 +55,7 @@ function Links(props) {
           rel="noopener noreferrer"
         >
           https://coronavirus.thebaselab.com/
-        </a>
+        </a> */}
 
         <div className="link fadeInUp" style={{animationDelay: '0.7s'}}>
         <h3>CONTACT US AT</h3>
@@ -67,7 +67,7 @@ function Links(props) {
 https://www.instagram.com/yashmantri        </a>
       </div>
 
-      </div>
+      {/* </div> */}
       </div>
       </div>
       </div>
