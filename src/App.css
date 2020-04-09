@@ -214,10 +214,18 @@ th {
     height: 100%;
   }  
 } */
+.grid{
+  margin-left: "80px";
+}
 
-@media (max-width:500px){
+@media (max-width:400px){
   .home{
     display: grid;
     grid-template-columns: auto;
   }
+
+  .grid{
+    margin-left: "40px";
+  }
 }
+
