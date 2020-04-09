@@ -35,7 +35,7 @@
     grid-template-columns: auto;
     width: 66%;
 
-    margin-left: 1.5rem;
+    margin-left: 1.6rem;
     margin-right: 5rem; 
   }
 
@@ -46,8 +46,8 @@
     grid-template-columns: auto;
     /* width: 10rem; */
     /* width: auto; */
-    margin-right: auto;
-    margin-left: 5rem; 
+    margin-right: 5rem;
+    margin-left: 1.6rem; 
   }
 
 .header-mid {
