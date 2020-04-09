@@ -107,7 +107,7 @@ function Home(props) {
           </div>
 
           <div className="home-right">
-          <h3 style={{marginLeft:'30px',fontFamily:'Hind',fontWeight:'600'}}>TOP 15 AFFECTED STATES</h3>
+          <h3 style={{marginLeft:'35px',fontFamily:'Hind',fontWeight:'600'}}>TOP 15 AFFECTED STATES</h3>
           <Grid style={{marginLeft:'40px'}}>
             <table >
               <thead>
@@ -130,9 +130,9 @@ function Home(props) {
               </tbody>
             </table>
                 </Grid>
-                <h5 style={{marginLeft:'30px',marginTop:'40px',fontWeight:"600"}}>STAY SAFE AND STAY AT HOME</h5>
+                <h5 style={{marginLeft:'35px',marginTop:'40px',fontWeight:"600"}}>STAY SAFE AND STAY AT HOME</h5>
                 <div className="link">
-                <text style={{marginLeft:'30px'}} rel="noopener noreferrer">covid19india</text>
+                <text style={{marginLeft:'35px'}} rel="noopener noreferrer">covid19india</text>
                 </div>
           </div> 
     </div>
