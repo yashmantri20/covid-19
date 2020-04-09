@@ -108,7 +108,7 @@ function Home(props) {
 
           <div className="home-right">
           <h3 style={{marginLeft:'40px',fontFamily:'Hind',fontWeight:'600'}}>TOP 15 AFFECTED STATES</h3>
-          <Grid className="grid">
+          <Grid style={{marginLeft:'40px'}}>
             <table >
               <thead>
                 <tr>
