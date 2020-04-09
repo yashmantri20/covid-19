@@ -211,7 +211,7 @@ function Self() {
 
     return (
         <div  className="test">
-            <form >
+            <form onSubmit={handlesubmit}>
             <p style={{justifyContent:'center',marginLeft:'-6px',marginTop:"19px",color:"black",fontStyle:'bold',fontSize:'30px',fontFamily: 'Hind',fontWeight:'600'}}>TEST</p>
                 
                 <div style={{marginTop:"10px"}}>
@@ -300,7 +300,7 @@ function Self() {
                 &nbsp;
                 </div>
 
-                <button onClick={handlesubmit} className="bt" type="submit">Submit</button>
+                <button className="bt" type="submit">Submit</button>
 
                 <div>
             <h5 style={{fontWeight:"600"}}>STAY SAFE AND STAY AT HOME</h5>
