@@ -35,8 +35,8 @@
     grid-template-columns: auto;
     width: 66%;
 
-    margin-left: 1.6rem;
-    margin-right: 4.9rem; 
+    margin-left: 2.5rem;
+    margin-right: 5rem; 
   }
 
 .home-right {
@@ -46,8 +46,8 @@
     grid-template-columns: auto;
     /* width: 10rem; */
     /* width: auto; */
-    margin-right: 4.9rem;
-    margin-left: 1.6rem; 
+    margin-right: 5rem;
+    margin-left: 2.5rem; 
   }
 
 .header-mid {
