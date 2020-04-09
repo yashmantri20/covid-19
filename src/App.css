@@ -124,9 +124,7 @@
     
 .gui{
       background:#eef2f3;  /* fallback for old browsers */
-      display: grid;
-      grid-template-columns: auto;
-      height: 88vh;  
+      height: 100%;  
       width: 100%;
       display: flex;
       flex-direction: column;
